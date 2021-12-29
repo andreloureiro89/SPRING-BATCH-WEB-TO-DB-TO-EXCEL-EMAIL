@@ -18,6 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.spring.batch.listeners.JobListener;
+import com.spring.batch.listeners.StepListener;
 import com.spring.batch.model.User;
 import com.spring.batch.service.H2DataBase;
 import com.spring.batch.service.JobService;
